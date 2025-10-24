@@ -12,7 +12,7 @@ namespace NamesappDbContextpace
         public appDbContext(DbContextOptions options)
             : base(options)
         {
-            
+
         }
 
         public DbSet<Stock> Stoki { get; set; }
@@ -23,3 +23,4 @@ namespace NamesappDbContextpace
         public DbSet<User> Users { get; set; }
     }
 }
+//kjfsdkjglkdsjgsdkjglksdjglsdkjgskljgskdjgkldsjglksdjglkdsjgdsjglkdsjglksjgkdsjglkdsgjlsdfgj
