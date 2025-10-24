@@ -1,12 +1,14 @@
 using System;
-using Namespace;
+//using Animal.Models ;
+using Animals.Models;
+using NamesappDbContextpace;
 
-namespace NameSpace
+namespace AnimalServices.Controllers.Services
 {
-    public class AnimalService
+    public class AnimalService : appDbContext
     {
-        private DbThingy _db;
-        public AnimalService(DbThingy d) { _db = d; }
+        private appDbContext _db;
+        //public appDbContext.ani (appDbContext d) { _db = d; }
 
         public void DoHeal(int id)
         {
@@ -21,13 +23,12 @@ namespace NameSpace
         public void AddNewAnimal(string n, string o, int a, string t)
         {
             var newAnimal = new Animal();
-            newAnimal.id = new Random().Next(1000, 9999);
-            newAnimal.Namez = n;
-            newAnimal.OwNer = o;
-            newAnimal.agee = a;
-            newAnimal.typee = t;
+            newAnimal.Id = new Random().Next(1000, 9999);
+            newAnimal.Names = n;
+            newAnimal.Owner = o;
+            newAnimal.Age = a;
+            newAnimal.Type = t;
             newAnimal.sickOrNot = false;
-            _db.Animal.Add(newAnimal);
         }
 
         public void RandomAgeUp()

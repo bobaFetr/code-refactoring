@@ -169,3 +169,15 @@
 /home/byordanov/codes/code-refactoring/obj/Debug/net9.0/code-refactoring.pdb
 /home/byordanov/codes/code-refactoring/obj/Debug/net9.0/code-refactoring.genruntimeconfig.cache
 /home/byordanov/codes/code-refactoring/obj/Debug/net9.0/ref/code-refactoring.dll
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.AssemblyInfo.cs
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.sourcelink.json
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.dll
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\refint\code-refactoring.dll
+C:\Users\Lenovo\Desktop\exam ref\code-refactoring\obj\Debug\net9.0\code-refactoring.pdb

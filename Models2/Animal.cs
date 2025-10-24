@@ -1,4 +1,4 @@
-namespace Animal.Models
+namespace Animals.Models
 {
     public class Animal //: AnimalDetails.Models.AnimalDetails
     {

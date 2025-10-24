@@ -1,31 +1,39 @@
+using AnimalServices.Controllers.Services;
 using Microsoft.AspNetCore.Mvc;
-using Namespace;
-using NameSpace;
+using NamesappDbContextpace;
 
+//using Namespace;
+//using NameSpace;
+
+using Stock.Models;
+//using Controllers.Services;
 namespace CodeRefactoring.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class AnimalzController : ControllerBase
+    public class AnimalsController : appDbContext
     {
-        private DbThingy db;
+        private appDbContext db;
         private AnimalService servicer;
 
-        public AnimalzController(DbThingy d, AnimalService s)
+        //Stock stock = new Stock();
+
+        //Stocka stock = new Stocka();
+        public AnimalService(appDbContext d, AnimalService s)
         {
             db = d;
             servicer = s;
         }
 
         [HttpGet("getall")]
-        public List<Stoka> GetAllAnimals()
+        public List<Stock> GetAllAnimals()
         {
             
             return db.Stoki.ToList();
         }
 
         [HttpGet("getone/{x}")]
-        public Stoka GetOneAnimal(int x)
+        public Stock GetOneAnimal(int x)
         {
             return db.Stoki.Find(x); 
         }

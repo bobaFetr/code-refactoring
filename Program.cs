@@ -1,19 +1,20 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Namespace;
-
+using NamesappDbContextpace;
+//using Namespace;
+using User.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<DbThingy>(o =>
+builder.Services.AddDbContext<appDbContext>(o =>
 {
     o.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
 
-builder.Services.AddIdentity<Potrebitel, IdentityRole>()
-    .AddEntityFrameworkStores<DbThingy>()
+builder.Services.AddIdentity<User, IdentityRole>()
+    .AddEntityFrameworkStores<appDbContext>()
     .AddDefaultTokenProviders();
 
 builder.Services.AddAuthentication();
