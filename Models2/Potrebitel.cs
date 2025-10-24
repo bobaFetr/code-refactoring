@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace Namespace
+namespace User.Models
 {
     public class Potrebitel : IdentityUser
     {
