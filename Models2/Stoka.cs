@@ -1,13 +1,17 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
-namespace Namespace
+namespace Stock.Models
 {
-    public class Stoka
+    public class Stock
     {
-        public Stoka()
+        public Stock()
         {
             Id = Guid.NewGuid().ToString();
+            Name = string.Empty;
+            Description = string.Empty;
+            Price = "0";
+            Quantity = "0";
         }
 
         [Key]
@@ -19,16 +23,16 @@ namespace Namespace
         public String Name { get; set; }
 
         [Required]
-        [Comment("Broq koito imame za produkta")]
-        public string Qty { get; set; } = "0";
+        [Comment("Quantity in stock")]
+        public string Quantity { get; set; } = "0";
 
         [Required]
         [MaxLength(1_000)]
         [Comment("Product description")]
-        public string Opisanie { get; set; }
+        public string Description { get; set; }
 
         [Required]
         [Comment("Price in unknown currency")]
-        public string Cena { get; set; }
+        public string Price { get; set; }
     }
 }
